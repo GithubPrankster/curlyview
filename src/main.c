@@ -25,7 +25,8 @@ int main(int argc, char** argv)
 	}
 
 	if(argc == 3){
-		scaler = atoi(argv[2]);
+		int num = atoi(argv[2])
+		scaler = num <= 1 ? 1 : num & 8;
 	}
 
 	/* Easter Egg */
