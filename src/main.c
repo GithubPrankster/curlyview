@@ -49,7 +49,7 @@ int main(int argc, char** argv)
 		return -1;
 	}
 
-	SDL_Renderer* rdr = SDL_CreateRenderer(win, -1, SDL_RENDERER_ACCELERATED);
+	SDL_Renderer* rdr = SDL_CreateRenderer(win, -1, SDL_RENDERER_ACCELERATED | SDL_RENDERER_PRESENTVSYNC);
 	if(!rdr){
 		SDL_ERR();
 		SDL_DestroyWindow(win);
