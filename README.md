@@ -1,3 +1,4 @@
+Now officially hosted on [Sourcehut](https://git.sr.ht/~unevenprankster/curlyview)! Down with the Github!
 <p align="center">
   <img src=adv/curly_rdr.png>
   <br>
